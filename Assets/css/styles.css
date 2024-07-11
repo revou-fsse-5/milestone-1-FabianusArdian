@@ -1,0 +1,374 @@
+@font-face {
+  font-family: "ExoXB";
+  src: url(../fonts/Exo-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "Exo";
+  src: url(../fonts/Exo-Black.ttf);
+}
+
+* {
+  font-family: "Exo" , Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    background-color: #f4f4f4;
+  }
+  
+  a {
+    color: orange;
+  }
+  
+  /* header */
+  
+  .nav-header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .nav-header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .nav-header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+  }
+  
+  .nav-header li a:hover,
+  .nav-header .menu-btn:hover {
+    background-color: #f4f4f4;
+    color: chocolate;
+    text-decoration: underline;
+  }
+  
+  .nav-header .logo {
+    font-family: "ExoXB" , Arial, sans-serif;
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+    animation: glitch 3s steps(100) infinite;
+  }
+  
+  @keyframes glitch { 
+    0% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    1% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    2% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    3% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    4% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    5% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    6% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    7% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    8% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    9% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    10% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    11% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+    12% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+    13% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+    14% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+    15% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+    16% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+    17% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+    18% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+    19% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+    20% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+    21% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+    22% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+    23% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+    24% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+    25% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+    26% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0.5px);}
+    27% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0.5px);}
+    28% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+    29% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+    30% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+    31% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+    32% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+    33% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+    34% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+    35% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0.5px);}
+    36% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0.5px);}
+    37% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0.5px);}
+    38% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+    39% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+    40% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+    41% { text-shadow: 45px 0 0 #0c33f5, -45px 0 0 lime; filter: blur(0);}
+    42% { text-shadow: 0 0 0 #0c33f5, 0 0 0 lime; filter: blur(0);}
+    43% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+    44% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+    45% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+    46% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+    47% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0.5px);}
+    48% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+    49% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+    50% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+    51% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    52% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    53% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    54% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    55% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0.5px);}
+    56% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0.5px);}
+    57% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0.5px);}
+    58% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    59% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    60% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    61% { text-shadow: 30px 0 0 red, -30px 0 0 lime; filter: blur(0);}
+    62% { text-shadow: 0 0 0 red, 0 0 0 lime; filter: blur(0);}
+    63% { text-shadow: 1px 0 0 red, -1px 0 0 #0c33f5; filter: blur(0);}
+    64% { text-shadow: 1px 0 0 red, -1px 0 0 #0c33f5; filter: blur(0);}
+    65% { text-shadow: 1px 0 0 red, -1px 0 0 #0c33f5; filter: blur(0);}
+    66% { text-shadow: 1px 0 0 red, -1px 0 0 #0c33f5; filter: blur(0.5px);}
+    67% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0.5px);}
+    68% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    69% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    70% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    71% { text-shadow: 50px 0 0 red, -50px 0 0 #0c33f5; filter: blur(0);}
+    72% { text-shadow: 0 0 0 red, 0 0 0 #0c33f5; filter: blur(0);}
+    73% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    74% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    75% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    76% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+    77% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    78% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    79% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    80% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+    81% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+    82% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+    83% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+    84% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+    85% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+    86% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0.5px);}
+    87% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0.5px);}
+    88% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+    89% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+    90% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+    91% { text-shadow: 60px 0 0 lime, -60px 0 0 #0c33f5; filter: blur(0);}
+    92% { text-shadow: 0 0 0 lime, 0 0 0 #0c33f5; filter: blur(0);}
+    92% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+    93% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+    94% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+    95% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+    96% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+    97% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+    98% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+    99% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+    100% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);} }
+    
+
+
+  .video-container {
+      position: relative;
+      width: 100%;
+      height: 500px;
+      overflow: hidden;
+  }
+  
+  #background-video {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+  }
+  
+  .video-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+  }
+  
+  .video-content  h1 {
+      font-size: 3em;
+      text-shadow: 3px 3px 2px rgb(241, 131, 41);
+  }
+  
+  .video-content p {
+      font-size: 1em;
+      font-family: Arial;
+      font-weight: bold;
+  }
+  /* menu */
+  
+  .nav-header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+    font-family: "ExoXB" , Arial, sans-serif;
+  }
+  
+  /* menu icon */
+  
+  .nav-header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .nav-header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: .2s ease-out;
+    width: 18px;
+  }
+  
+  .nav-header .menu-icon .navicon:before,
+  .nav-header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .nav-header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .nav-header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  
+  .nav-header .menu-btn {
+    display: none;
+  }
+  
+  .nav-header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .nav-header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .nav-header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .nav-header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .nav-header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .nav-header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  .section1 {
+    font-family: Arial, sans-serif;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+}
+
+.text1 {
+  padding: 20px;
+  flex: 1;
+}
+
+.text1 h2 {
+  color: #000;
+  font-size: 2.5em;
+  margin: 0 0 20px;
+  
+}
+
+.text1 h2 span {
+  color: orange;
+  text-decoration: underline;
+}
+
+.text1 p {
+  font-family: Arial;
+  color: #666;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.image1 {
+  flex: 1;
+  padding: 5px;
+}
+
+.image1 img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition-property: filter;
+  transition-duration: 3s;
+}
+
+.image1 img:hover {
+  filter: grayscale(0);
+}
+  
+  @media (min-width: 768px) {
+    .nav-header li {
+      float: left;
+    }
+    .nav-header li a {
+      padding: 20px 30px;
+    }
+    .nav-header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .nav-header .menu-icon {
+      display: none;
+    }
+    
+  }
+
+  @media (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+    }
+
+    .text1 {
+        padding: 20px;
+    }
+
+    .text1 h1 {
+        font-size: 2em;
+    }
+}
+  
