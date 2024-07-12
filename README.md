@@ -10,11 +10,11 @@
 # Documentation Website Project
 
 ## HTML Structure
-<ul> `Header` : which is used to define the title and sub-headings of a web page. <ul>
-<li>`Nav` : for navigation</li>
+`Header` : which is used to define the title and sub-headings of a web page.
+- `Nav` : for navigation
 
 
-###### 🌏 milestone1.tafsolution.site
+
 <p>🙌 From Ardian</p>
 <p>👨‍💻 Trying to become a software engineer</p>
 
