@@ -1,1 +1,20 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/cvSOEAVD)
+# Hi Engineer, TAF INC 🌐
+
+<br>
+<img align="center" src="Assets/img/world.gif">
+
+# Module 2 Assignment Website Project
+
+<p>This website is a website project built with HTML & CSS. This project takes the theme IT Business 😁</p>
+
+# Documentation Website Project
+
+## HTML Structure
+<ul> `Header` : which is used to define the title and sub-headings of a web page. <ul>
+<li>`Nav` : for navigation</li>
+
+
+###### 🌏 milestone1.tafsolution.site
+<p>🙌 From Ardian</p>
+<p>👨‍💻 Trying to become a software engineer</p>
+
