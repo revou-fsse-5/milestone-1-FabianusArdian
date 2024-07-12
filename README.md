@@ -15,7 +15,7 @@
 <p>This website does not use other extensions, only uses CSS</p>
 
 ## Body : 
-###`header` : Which is used to define the title and sub-headings of a web page.
+### `header` : Which is used to define the title and sub-headings of a web page.
 - `Nav-Header` : for navigation menu 
 - `Video-Container` : Use video as background and add H1 to website vision
 
@@ -26,7 +26,7 @@
 <br>
 <img src="Assets\img\2.JPG">
 
-###`main` : The main content website.
+### `main` : The main content website.
 - `section1` :  There are articles and pictures illustrating it business. There is animation in the picture.
 
 *section1 screen display desktop*
@@ -64,7 +64,7 @@ The last section contains the work flow of this company, explained in 3 processe
 <br>
 <img src="Assets\img\10.JPG">
 
-###`footer` : The footer contains information regarding copyright, sublinks, contact and address
+### `footer` : The footer contains information regarding copyright, sublinks, contact and address
 
 *footer screen display desktop*
 <img src="Assets\img\11.JPG">
@@ -74,7 +74,7 @@ The last section contains the work flow of this company, explained in 3 processe
 <img src="Assets\img\12.JPG">
 <br>
 
-#Responsive Design
+## Responsive Design
 <br>
 ● Implement CSS media queries for screen 768 px & 468 px
 <br>
