@@ -10,7 +10,10 @@
 ## Setup Guide
 <p>Tools</p>
 - A web browser Recommended Google Chrome
-- Internet connection
+<br>
+- Internet connection 
+<br>
+- Faith 🤲
 
 **Clone the Repository:**
 
