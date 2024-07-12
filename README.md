@@ -70,6 +70,7 @@ The last section contains the work flow of this company, explained in 3 processe
 <img src="Assets\img\11.JPG">
 <br>
 *footer screen display mobile*
+<br>
 <img src="Assets\img\12.JPG">
 <br>
 
